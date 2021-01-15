@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryAccent</item>
+
+        <item name="backgroundcolor">@color/background</item>
+        <item name="cardbackground">#ffffff</item>
+        <item name="textcolor">@color/primaryTextColor</item>
+        <item name="tintcolor">#000000</item>
+        <item name="buttoncolor">@color/primaryColor</item>
+    </style>
+
+    <!-- Night/dark theme. -->
+    <style name="darkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/primaryAccent</item>
+
+        <item name="backgroundcolor">@color/background</item>
+        <item name="cardbackground">@color/primaryTextColor</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="tintcolor">#ffffff</item>
+        <item name="buttoncolor">@color/primaryColor</item>
+
+    </style>
+
+</resources>
